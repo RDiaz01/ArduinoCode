@@ -1,0 +1,9 @@
+import urllib3
+
+resp = urllib3.request(
+    "GET",
+    "http://localhost/update",
+    headers={
+        "state": "22"
+    }
+)
